@@ -1,7 +1,0 @@
-c_key V5ChLNL9sECAkTR9huOLIQ
-
-c_secret bkTMQ8684ZZKGY8NAOWh2smwBgNZHIxlu2m52FdL6qc
-
-a_token 	725963-IKmuaUh5CSRRVGVM4q1Dgqny4lH7VhcLZh3EGdWRuu4
-
-a_secret 	LIsmpLvCbvRla04pLET0gzqmIWovO9JmDpjoIlf1FA
