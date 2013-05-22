@@ -15,3 +15,20 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+afinnfile = open("AFINN-111.txt")
+scores = {} # initialize an empty dictionary
+for line in afinnfile:
+  term, score  = line.split("\t")  # The file is tab-delimited. "\t" means "tab character"
+  scores[term] = int(score)  # Convert the score to an integer.
+
+print scores.items() # Print every (term, score) pair in the dictionary
+
+import json
+
+data = []
+with open('first_20_lines.txt') as f:
+    for line in f:
+        data.append(json.loads(line))
+data = json.loads(line);
+print data[u'text']
